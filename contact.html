@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İslami Test | Əlaqə</title>
+    <link rel="shortcut icon" href="./assets/img/islamic_quiz_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/wrapper.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body class="position-relative">
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-absolute position-sticky top-0"
+        style="top: 0; z-index: 3; background-color: #316A9C;">
+        <div class="container-fluid mx-5">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="./assets/img/islamic_quiz_logo.jpg" class="img-fluid border-0 mr-2 border rounded-pill"
+                    width="40px" alt="logo">
+                <span class="text-light font-weight-bolder" style="font-size: 20px;">İslami Test</span>
+            </a>
+            <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav w-100 d-flex align-items-center justify-content-center">
+                    <li class="nav-item my-1 font-weight-normal" style="font-size: 18px;">
+                        <a class="nav-link text-light" href="index.html">Ana Səhifə</a>
+                    </li>
+                    <li class="nav-item my-1 font-weight-normal" style="font-size: 18px;">
+                        <a class="nav-link text-light" href="about.html">Haqqımızda</a>
+                    </li>
+                    <li class="nav-item my-1 font-weight-normal" style="font-size: 18px;">
+                        <a class="nav-link text-light" href="dua.html">Dua</a>
+                    </li>
+                    <li class="nav-item my-1 font-weight-normal" style="font-size: 18px;">
+                        <a class="nav-link text-light" href="tests.html">Testlər</a>
+                    </li>
+                    <li class="nav-item my-1 font-weight-bolder" style="font-size: 18px;">
+                        <a class="nav-link active" href="contact.html">Əlaqə</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav d-flex align-items-center g-3">
+                    <li class="nav-item mx-1 my-1">
+                        <a href="login.html" class="btn btn-outline-light border rounded-pill bg-white px-5 text-dark"
+                            style="font-size: 16px;">Qeydiyyat</a>
+                    </li>
+                    <li class="nav-item mx-1 my-1">
+                        <button type="button" class="btn btn-outline bg-white border rounded-pill"
+                            data-bs-toggle="popover" data-bs-placement="right" data-bs-custom-class="custom-popover"
+                            data-bs-title="Custom popover" data-bs-content="This popover is themed via CSS variables.">
+                            <i class="fa-solid fa-user"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container-fluid py-5 bg-light">
+            <h1 class="text-center mb-5 display-4 font-weight-bold">Əlaqə</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="bg-white shadow-lg rounded-3 overflow-hidden">
+                        <div class="row">
+                            <div class="col-lg-6 p-5">
+                                <h2 class="mb-4 font-weight-bold text-primary">Bizimlə əlaqə saxlayın</h2>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-4">
+                                            <label for="name" class="form-label">Ad</label>
+                                            <input type="text" id="name" class="form-control border-0 border-bottom rounded-0 shadow-sm py-2" placeholder="Adınızı daxil edin">
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <label for="email" class="form-label">E-poçt</label>
+                                            <input type="email" id="email" class="form-control border-0 border-bottom rounded-0 shadow-sm py-2" placeholder="E-poçt ünvanınızı daxil edin">
+                                        </div>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="subject" class="form-label">Mövzu</label>
+                                        <input type="text" id="subject" class="form-control border-0 border-bottom rounded-0 shadow-sm py-2" placeholder="Mesajınızın mövzusunu daxil edin">
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="message" class="form-label">Mesaj</label>
+                                        <textarea id="message" rows="5" class="form-control border-0 border-bottom rounded-0 shadow-sm py-2" placeholder="Mesajınızı daxil edin"></textarea>
+                                    </div>
+                                    <div class="d-grid mt-4">
+                                        <button type="submit" class="w-100 btn btn-primary text-white font-weight-bold py-3" style="background-color: #1E5C93;">Göndər</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-6 bg-primary text-white p-5 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h2 class="mb-4 font-weight-bold">Əlaqə məlumatları</h2>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="fas fa-phone me-3 fs-4"></i>
+                                        <p class="mb-0 fs-5">+994 55 713 52 90</p>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="fas fa-envelope me-3 fs-4"></i>
+                                        <p class="mb-0 fs-5">mehemmed.qardasov2003@gmail.com</p>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-5">
+                                        <i class="fas fa-map-marker-alt me-3 fs-4"></i>
+                                        <p class="mb-0 fs-5">Bakı, Azərbaycan</p>
+                                    </div>
+                                </div>
+                                <div class="map-container rounded-3 overflow-hidden mt-4" style="height: 250px; width: 100%;">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194473.42999465!2d49.71487086893639!3d40.37494975641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2zQmFrxLE!5e0!3m2!1sen!2saz!4v1653909825837!5m2!1sen!2saz"
+                                        title="Google Maps"
+                                        width="100%"
+                                        height="100%"
+                                        style="border: 0;"
+                                        allowfullscreen=""
+                                        loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="pt-4 pb-2" style="background-color: #326B9D;">
+        <div class="container">
+            <div class="row d-flex align-items-start">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-2 d-flex flex-column">
+                    <div class="footerImg d-flex align-items-center justify-content-center">
+                        <img src="./assets/img/islamic_quiz_logo.jpg" class="my-3 img-fluid mb-3" width="50" height="50"
+                            alt="">
+                    </div>
+                    <h2 class="my-3 text-white text-center">İslami Test</h2>
+                    <ul class="my-3 list-unstyled d-flex align-items-center justify-content-center px-5">
+                        <li class="mb-2 mx-2 px-2 py-1 rounded-pill"
+                            style="font-size: 15px; background-color: #E4405F;">
+                            <a href="index.html" class="text-light" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="mb-2 mx-2 px-2 py-1 rounded-pill"
+                            style="font-size: 15px; background-color: #3b5998;">
+                            <a href="index.html" class="text-light" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="mb-2 mx-2 px-2 py-1 rounded-pill"
+                            style="font-size: 15px; background-color: #1DA1F2;">
+                            <a href="index.html" class="text-light" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="mb-2 mx-2 px-2 py-1 rounded-pill" style="font-size: 15px; background-color: #000;">
+                            <a href="index.html" class="text-light" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="mb-2 mx-2 px-2 py-1 rounded-pill"
+                            style="font-size: 15px; background-color: #25D366;">
+                            <a href="index.html" class="text-light" target="_blank">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+                    <h3 class="text-center text-decoration-underline text-white font-weight-bolder">Kəşf et</h3>
+                    <ul class="list-unstyled d-flex justify-content-center flex-column align-items-center w-100">
+                        <li class="mb-2">
+                            <a href="index.html" class="text-white text-decoration-none">
+                                <i class="fa-solid fa-chevron-right px-1" style="font-size: 12px;"></i>
+                                <span class="mr-2">Ana Səhifə</span>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="index.html" class="text-white text-decoration-none">
+                                <i class="fa-solid fa-chevron-right px-1" style="font-size: 12px;"></i>
+                                <span class="mr-2">Haqqımızda</span>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="index.html" class="text-white text-decoration-none">
+                                <i class="fa-solid fa-chevron-right px-1" style="font-size: 12px;"></i>
+                                <span class="mr-2">Dua</span>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="index.html" class="text-white text-decoration-none">
+                                <i class="fa-solid fa-chevron-right px-1" style="font-size: 12px;"></i>
+                                <span class="mr-2">Testlər</span>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="index.html" class="text-white text-decoration-none">
+                                <i class="fa-solid fa-chevron-right px-1" style="font-size: 12px;"></i>
+                                <span class="mr-2">Əlaqə</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+                    <h3 class="text-center text-decoration-underline text-white font-weight-bolder">Testlər</h3>
+                    <ul class="list-unstyled d-flex justify-content-center flex-column align-items-center w-100">
+                        <li class="mb-2">
+                            <a href="index.html" class="text-white text-decoration-none">
+                                <i class="fa-solid fa-chevron-right px-1" style="font-size: 12px;"></i>
+                                <span class="mr-2">Dua</span>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="index.html" class="text-white text-decoration-none">
+                                <i class="fa-solid fa-chevron-right px-1" style="font-size: 12px;"></i>
+                                <span class="mr-2">Təfsir</span>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="index.html" class="text-white text-decoration-none">
+                                <i class="fa-solid fa-chevron-right px-1" style="font-size: 12px;"></i>
+                                <span class="mr-2">Fiqh</span>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="index.html" class="text-white text-decoration-none">
+                                <i class="fa-solid fa-chevron-right px-1" style="font-size: 12px;"></i>
+                                <span class="mr-2">Tövhid</span>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="index.html" class="text-white text-decoration-none">
+                                <i class="fa-solid fa-chevron-right px-1" style="font-size: 12px;"></i>
+                                <span class="mr-2">Akaid</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+                    <h3 class="text-center text-decoration-underline text-white font-weight-bolder">Əlaqə</h3>
+                    <ul class="list-unstyled d-flex justify-content-start flex-column align-items-center w-100">
+                        <li class="mb-2 d-flex align-items-center justify-content-start py-1 border-bottom">
+                            <i class="fa-solid fa-phone border border-white rounded-circle px-2 py-2 bg-white"
+                                style="font-size: 18px; margin-right: 10px; color: #326B9D;"></i>
+                            <a href="index.html" class="text-white text-decoration-none d-flex flex-column">
+                                <span class="text-center">Zəng</span>
+                                <span class="text-center">+994 50 123 45 67</span>
+                            </a>
+                        </li>
+                        <li class="mb-2 d-flex align-items-center justify-content-start py-1 border-bottom">
+                            <i class="fa-solid fa-envelope border border-white rounded-circle px-2 py-2 bg-white"
+                                style="font-size: 18px; margin-right: 10px; color: #326B9D;"></i>
+                            <a href="index.html" class="text-white text-decoration-none d-flex flex-column">
+                                <span class="text-center">Email</span>
+                                <span class="text-center">admin1212@.com</span>
+                            </a>
+                        </li>
+                        <li class="mb-2 d-flex align-items-center justify-content-start py-1 border-bottom">
+                            <i class="fa-solid fa-location-dot border border-white rounded-circle px-2 py-2 bg-white"
+                                style="font-size: 18px; margin-right: 10px; color: #326B9D;"></i>
+                            <a href="index.html" class="text-white text-decoration-none d-flex flex-column">
+                                <span class="text-center">Ünvan</span>
+                                <span class="text-center">Azerbaijan, Baku, </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-white">
+            <p style="text-align: center; font-weight: 700; font-size: 20px; color: #fff;">
+                &copy;
+                <script> document.write(new Date().getFullYear()); </script> İslami Test. Bütün hüquqlar qorunur.
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/98ce4f3177.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
