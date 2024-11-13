@@ -44,12 +44,22 @@
                 </ul>
                 <ul class="navbar-nav d-flex align-items-center g-3">
                     <li class="nav-item mx-1 my-1">
-                        <a href="login.html" class="btn btn-outline-light border rounded-pill bg-white px-5 text-dark" style="font-size: 16px;">Qeydiyyat</a>
+                        <a href="register.html" class="btn btn-outline-light border rounded-pill bg-white px-5 text-dark" style="font-size: 16px;">Qeydiyyat</a>
                     </li>
                     <li class="nav-item mx-1 my-1">
-                        <button type="button" class="btn btn-outline bg-white border rounded-pill" data-bs-toggle="popover" data-bs-placement="right"
-                            data-bs-custom-class="custom-popover" data-bs-title="Custom popover"
-                            data-bs-content="This popover is themed via CSS variables.">
+                        <button type="button" class="btn btn-outline bg-white border rounded-pill" data-bs-toggle="popover"
+                            data-bs-trigger="focus" data-bs-placement="bottom" data-bs-html="true" data-bs-content='
+                                <div class="popover-header text-center font-weight-bolder m-0 p-0">
+                                    <h4>Profil</h4>
+                                </div>
+                                <div class="popover-body">
+                                    <div class="flex-column">
+                                        <div id="loggedOutContent" class="text-center">
+                                            <p>Əgər qeydiyyatdan keçmisəniz, giriş etmək üçün aşağıdakı butona basın.</p>
+                                            <a href="login.html" class="w-100 btn btn-dark bg-dark text-white my-1 rounded-5">Giriş</a>
+                                        </div>
+                                    </div>
+                                </div>'>
                             <i class="fa-solid fa-user"></i>
                         </button>
                     </li>
@@ -92,8 +102,8 @@
                         </div>
                         <div class="card-body p-4 bg-white rounded-bottom">
                             <h5 class="card-title arabic-text text-center mb-4 display-6 font-weight-bolder text-primary">وَأَوۡحَيۡنَآ إِلَىٰٓ أُمِّ مُوسَىٰٓ أَنۡ أَرۡضِعِيهِۖ فَإِذَا خِفۡتِ عَلَيۡهِ فَأَلۡقِيهِ فِي ٱلۡيَمِّ وَلَا تَخَافِي وَلَا تَحۡزَنِيٓۖ إِنَّا رَآدُّوهُ إِلَيۡكِ وَجَاعِلُوهُ مِنَ ٱلۡمُرۡسَلِينَ</h5>
-                            <p class="card-text text-center mb-3 font-weight-bolder text-secondary" style="font-size: 18px;">(28/Kasas, 7)</p>
-                            <p class="card-text text-center text-muted" style="font-size: 18px;">Musa’nın annesine: Onu emzir diye ilham ettik. Onun için endişelendiğin zaman onu nehre at. Korkma ve üzülme. Biz onu sana geri döndüreceğiz ve onu peygamberlerden kılacağız.</p>
+                            <p class="card-text text-center mb-3 font-weight-bolder text-secondary" style="font-size: 22px;">(28/Kasas, 7)</p>
+                            <p class="card-text text-center text-muted" style="font-size: 20px;">Musa’nın annesine: Onu emzir diye ilham ettik. Onun için endişelendiğin zaman onu nehre at. Korkma ve üzülme. Biz onu sana geri döndüreceğiz ve onu peygamberlerden kılacağız.</p>
                         </div>
                     </div>
                 </div>
@@ -274,7 +284,7 @@
         </div>
     </footer>
 
-
+    <script src="./assets/js/main.js"></script>
     <script src="https://kit.fontawesome.com/98ce4f3177.js" crossorigin="anonymous"></script>
 </body>
 </html>

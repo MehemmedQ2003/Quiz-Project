@@ -14,17 +14,14 @@
 <body class="position-relative">
 
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary position-absolute position-sticky top-0"
-        style="top: 0; z-index: 3; background-color: #316A9C;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-absolute position-sticky top-0" style="top: 0; z-index: 3; background-color: #316A9C;">
         <div class="container-fluid mx-5">
             <a class="navbar-brand d-flex align-items-center" href="index.html">
-                <img src="./assets/img/islamic_quiz_logo.jpg" class="img-fluid border-0 mr-2 border rounded-pill"
-                    width="40px" alt="logo">
+                <img src="./assets/img/islamic_quiz_logo.jpg" class="img-fluid border-0 mr-2 border rounded-pill" width="40px" alt="logo">
                 <span class="text-light font-weight-bolder" style="font-size: 20px;">İslami Test</span>
             </a>
-            <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -47,13 +44,22 @@
                 </ul>
                 <ul class="navbar-nav d-flex align-items-center g-3">
                     <li class="nav-item mx-1 my-1">
-                        <a href="login.html" class="btn btn-outline-light border rounded-pill bg-white px-5 text-dark"
-                            style="font-size: 16px;">Qeydiyyat</a>
+                        <a href="register.html" class="btn btn-outline-light border rounded-pill bg-white px-5 text-dark" style="font-size: 16px;">Qeydiyyat</a>
                     </li>
                     <li class="nav-item mx-1 my-1">
-                        <button type="button" class="btn btn-outline bg-white border rounded-pill"
-                            data-bs-toggle="popover" data-bs-placement="right" data-bs-custom-class="custom-popover"
-                            data-bs-title="Custom popover" data-bs-content="This popover is themed via CSS variables.">
+                        <button type="button" class="btn btn-outline bg-white border rounded-pill" data-bs-toggle="popover"
+                            data-bs-trigger="focus" data-bs-placement="bottom" data-bs-html="true" data-bs-content='
+                                <div class="popover-header text-center font-weight-bolder m-0 p-0">
+                                    <h4>Profil</h4>
+                                </div>
+                                <div class="popover-body">
+                                    <div class="flex-column">
+                                        <div id="loggedOutContent" class="text-center">
+                                            <p>Əgər qeydiyyatdan keçmisəniz, giriş etmək üçün aşağıdakı butona basın.</p>
+                                            <a href="login.html" class="w-100 btn btn-dark bg-dark text-white my-1 rounded-5">Giriş</a>
+                                        </div>
+                                    </div>
+                                </div>'>
                             <i class="fa-solid fa-user"></i>
                         </button>
                     </li>
@@ -284,7 +290,7 @@
         </div>
     </footer>
 
-
+    <script src="./assets/js/main.js"></script>
     <script src="https://kit.fontawesome.com/98ce4f3177.js" crossorigin="anonymous"></script>
 </body>
 

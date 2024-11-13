@@ -345,3 +345,11 @@ template {
 [hidden] {
     display: none;
 }
+
+/* Login and Register page */
+.bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/img/bg_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
